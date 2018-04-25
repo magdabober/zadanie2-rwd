@@ -1,0 +1,27 @@
+@media all and (max-width: 1170px) {
+    header {
+        background-image: url(../obrazy/man-2.jpg);
+        height: 70vh;
+    }
+
+    h1 {
+        top: 0;
+        right: 0;
+        transform: none;
+    }
+}
+
+@media all and (max-width: 992px) {
+    header {
+        background-image: url(../obrazy/man-1.jpg);
+        height: 50vh;
+        
+    }
+    
+        h1 {
+        text-align: center;
+        color: black;
+        position: relative;
+        top: 50vh;
+    }
+}
